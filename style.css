@@ -72,3 +72,104 @@
 .active, .dot:hover {
   background-color: #00004d;
 }
+.bottom{
+	position: relative;
+}
+.rectangle{
+	height: 383px;
+	width: 1536px;
+	padding: 0px 0px 0px 0px;
+	margin: 18px 0px 0px -8px;
+	background-color: #0b4e7a;
+}
+.consult{
+	position: absolute;
+	top: 242px;
+	color: white;
+	left: 400px;
+	font-family: PingFangTC-Ultralight, sans-serif;
+	font-size: 18px;
+}
+.consultInfo{
+	position: absolute;
+	text-align: center;
+	word-break: break-all;
+	width: 154px;
+	top: 272px;
+	left: 364px;
+	color: white;
+	font-size: 14px;
+	font-family: PingFangTC-Ultralight, sans-serif;
+}
+.find1{
+	text-decoration: underline; 
+	position: absolute;
+	top: 324px;
+	left: 400px;
+	color: #66b171;
+	font-size: 14px;
+	font-family: PingFangTC-Ultralight, sans-serif;
+}
+.implement{
+	position: absolute;
+	top: 204px;
+	color: white;
+	left: 686px;
+	font-family: PingFangTC-Ultralight, sans-serif;
+	font-size: 18px;
+}
+.implementInfo{
+	position: absolute;
+	text-align: center;
+	word-break: break-all;
+	width: 147px;
+	top: 234px;
+	left: 666px;
+	color: white;
+	font-size: 14px;
+	font-family: PingFangTC-Ultralight, sans-serif;
+}
+.find2{
+	text-decoration: underline; 
+	position: absolute;
+	top: 270px;
+	left: 692px;
+	color: #66b171;
+	font-size: 14px;
+	font-family: PingFangTC-Ultralight, sans-serif;
+}
+.manage{
+	position: absolute;
+	top: 242px;
+	color: white;
+	left: 1000px;
+	font-family: PingFangTC-Ultralight, sans-serif;
+	font-size: 18px;
+}
+.manageInfo{
+	position: absolute;
+	text-align: center;
+	word-break: break-all;
+	width: 145px;
+	top: 272px;
+	left: 966px;
+	color: white;
+	font-size: 14px;
+	font-family: PingFangTC-Ultralight, sans-serif;
+}
+.find3{
+	text-decoration: underline; 
+	position: absolute;
+	top: 324px;
+	left: 994px;
+	color: #66b171;
+	font-size: 14px;
+	font-family: PingFangTC-Ultralight, sans-serif;
+}
+.rectangle2{
+	height: 15px;
+	width: 1536px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px -8px;
+	background-color: #00004d;
+}
