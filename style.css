@@ -173,3 +173,24 @@
 	margin: 0px 0px 0px -8px;
 	background-color: #00004d;
 }
+.fas.fa-comment{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top:186px;
+	left: 428px;
+}
+.fas.fa-handshake{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top:148px;
+	left: 716px;
+}
+.fas.fa-user-tie{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top:186px;
+	left: 1024px;
+}
