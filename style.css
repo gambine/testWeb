@@ -1,8 +1,15 @@
+body {
+    overflow-x:hidden;
+}
 .container{
 	width:1512px;
 	margin: 0px auto;
 }
+
 /* Style the links inside the navigation bar */
+.top{
+	position: relative;
+}
 .topnav a {
     float: right;
     color: black;
@@ -11,10 +18,12 @@
     text-decoration: none;
     font-size: 14px;
 	font-family: PingFangTC-Ultralight, sans-serif;
+
 }
 
 .topnav {
 	padding: 32px 100px 0px 0px;
+	z-index: 1;
 }
 
 /* Change the color of links on hover */
@@ -73,7 +82,13 @@
 .active, .dot:hover {
   background-color: #00004d;
 }
-
+#logo{
+	width: 70%;
+	height: 70%;
+	margin: -421px 0px -439px 0px;
+	padding: 0px 0px 0px 732px;
+	z-index: -1;
+}
 .bottom{
 	position: relative;
 	float: left;
@@ -81,7 +96,7 @@
 	padding: 100px 0px 250px 0px;
 	background: #0b4e7a;
 	margin:58px 0px 0px -8px;
-
+	z-index: 1;
 
 }
 .bottom:after{
@@ -96,7 +111,7 @@
 	background: inherit;
 	transform-origin: top right;
 	transform: skewY(3deg);
-	z-index: -1;
+	z-index: 0;
 }
 
 
@@ -206,6 +221,7 @@
 	position: absolute;
 	top:108px;
 	left: 716px;
+	z-index: 1;
 }
 .fas.fa-user-tie{
 	font-size: 30px;
