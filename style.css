@@ -214,6 +214,7 @@ body {
 	position: absolute;
 	top:146px;
 	left: 428px;
+	z-index: 1;
 }
 .fas.fa-handshake{
 	font-size: 30px;
@@ -229,6 +230,7 @@ body {
 	position: absolute;
 	top:146px;
 	left: 1024px;
+	z-index: 1;
 }
 @media screen and (max-width:1511px){
 	.container{
@@ -246,8 +248,11 @@ body {
 	.word3{
 		width:50%;
 	}
+	#logo{
+		width: 50%;
+	}
 	.mydot{
-		width: 100%;
+		width: 50%;
 	}
 	.bottom{
 		width:100%;
